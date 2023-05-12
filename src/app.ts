@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Hello World!');
+	res.send('Hello World!');
 });
 
 const ab = 'asd';
@@ -21,5 +21,5 @@ const a = `${12}adsa`;
 // const myString = `${x} is equals ${y}`;
 
 app.listen(port, () => {
-  console.log(`Listening on port ${port}`);
+	console.log(`Listening on port ${port}`);
 });
