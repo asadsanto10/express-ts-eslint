@@ -8,7 +8,8 @@
   },
   "[typescript]": {
     "editor.formatOnSave": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "typescript.preferences.importModuleSpecifier": "relative"
   },
   "[html]": {
     "editor.formatOnSave": true,
